@@ -1,0 +1,78 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background: linear-gradient(to right, #111, #fff, salmon, orange, yellow, green, blue, red);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container #bg-heading {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.container .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.container .buttons .button {
+  height: 30px;
+  width: 30px;
+  border: 2px solid indigo;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 20px;
+  margin: 100px 20px 0 0;
+}
+
+.container .buttons .button:hover {
+  transform: scale(1.4);
+}
+
+.container .buttons .dark {
+  background: #111;
+}
+
+.container .buttons .white {
+  background: #fff;
+}
+
+.container .buttons .salmon {
+  background: salmon;
+}
+
+.container .buttons .orange {
+  background: orange;
+}
+
+.container .buttons .yellow {
+  background: yellow;
+}
+
+.container .buttons .green {
+  background: green;
+}
+
+.container .buttons .blue {
+  background: blue;
+}
+
+.container .buttons .red {
+  background: red;
+}
